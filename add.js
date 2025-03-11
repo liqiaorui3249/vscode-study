@@ -1,33 +1,3 @@
-// 利用copilot生成的代码
-let currentNumber = 0;
-
-function increment() {
-    currentNumber += 1;
-    return currentNumber;
-}
-
-module.exports = increment;
-// 利用copilot生成的代码
-setInterval(() => {
-    console.log(increment());
-}, 1000);
-// 利用copilot生成的代码
-document.addEventListener('DOMContentLoaded', () => {
-    const div = document.createElement('div');
-    div.style.width = '100px';
-    div.style.height = '100px';
-    div.style.backgroundColor = 'blue';
-    div.style.display = 'none';
-    document.body.appendChild(div);
-
-    document.addEventListener('click', () => {
-        if (div.style.display === 'none') {
-            div.style.display = 'block';
-        } else {
-            div.style.display = 'none';
-        }
-    });
-});
 // 利用copilot生成的代码事件监听
 document.addEventListener('DOMContentLoaded', () => {
     const input1 = document.createElement('input');
